@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6.5rem;
+    padding: 1rem 2rem;
+    border-bottom:2px solid #DFDFDF;
+}
+
+h1{
+    color: #171217;
+    font-size:2rem;
+    font-weight:bolder;
+}
+
+.btn{
+    background-color:#FCB218;
+    color: white;
+    font-weight:bolder;
+    min-width: 7rem;
+    padding: 1.5rem;
+    font-size: 1rem;
+}
+
+.btn:hover{
+   color:#FCB218 !important;
+   background-color: white !important;
+   border-color: #FCB218 !important;
+}

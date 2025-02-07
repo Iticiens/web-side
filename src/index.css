@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #F2F2F2;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+.layout{
+    display:grid;
+    grid-template-columns: auto 1fr;
+    overflow: auto;
+}
+main{
+    width: 100%;
+}
+
+section{
+    padding: 4rem;
+    width: 100%;
+    height:90vh ;
+    overflow-y: auto;
+}
+
+section::-webkit-scrollbar {
+  width: 8px;
+}
+
+section::-webkit-scrollbar-thumb {
+  background: #FCB218;
+  border-radius: 4px;
+}
+
+section::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
